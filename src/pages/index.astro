@@ -1,11 +1,35 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import '../styles/global.css';
+import '../styles/fonts.css';
+import Hero from '../components/Hero';
+import ClientCollaboration from '../components/ClientCollaboration';
 import Layout from '../layouts/Layout.astro';
-
+import Header from '../components/Header';
+import Services from '../components/Services';
+import WhyUs from '../components/WhyUs';
+import Partnerships from '../components/Partnerships';
+import Publications from '../components/Publications';
+import Merchants from '../components/Merchants';
+import Footer from '../components/Footer';
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Haru Digital Solutions" class="">
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+	</head>
+	<Header client:load/>
+	<main>
+		<Hero client:load/>
+		<ClientCollaboration />
+		<Services />
+		<WhyUs />
+		<Partnerships />
+		<Merchants />
+		<Publications />
+		<Footer />
+	</main>
 </Layout>
+
+<!-- FIX PAGE HEIGHT AND MOBILE RESPONSIVENESS -->
