@@ -21,7 +21,7 @@ const WhyUs = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 justify-center items-center">
         <div className="order-1 md:order-1 mb-4 md:mt-12">
           <img
-            src="/src/assets/images/why.png"
+            src="/assets/images/why.png"
             alt="Team collaboration"
             className="w-full shadow-lg rounded-lg"
           />

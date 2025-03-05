@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex items-center justify-between w-full">
         <a href="/">
           <img
-            src="/src/assets/logo/company-logo.svg"
+            src="/assets/logo/company-logo.svg"
             alt="logo"
             className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
           />

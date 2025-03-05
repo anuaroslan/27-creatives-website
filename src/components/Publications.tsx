@@ -5,17 +5,17 @@ import { BackgroundImage } from "./background";
 const Publications = () => {
   const publications = [
     {
-      image: "/src/assets/images/nan-yang.png",
+      image: "/assets/images/nan-yang.png",
       title: "Nan Yang",
       type: "Magazine",
     },
     {
-      image: "/src/assets/images/health-matter.png",
+      image: "/assets/images/health-matter.png",
       title: "Latest News",
       type: "Newspaper",
     },
     {
-      image: "/src/assets/images/bernama.png",
+      image: "/assets/images/bernama.png",
       title: "Case Study",
       type: "Newspaper",
     },

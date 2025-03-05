@@ -9,7 +9,7 @@ const ClientCollaboration = () => {
         <div className="flex flex-col items-center gap-6 md:gap-12">
           <div className="w-full">
             <img
-              src="/src/assets/images/welcome-image.png"
+              src="/assets/images/welcome-image.png"
               alt="Team collaboration"
               className="w-full shadow-lg rounded-md"
             />

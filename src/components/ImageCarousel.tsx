@@ -2,23 +2,23 @@ import { useState } from "react";
 
 const images = [
   {
-    src: "/src/assets/carousel/hero-1.png",
+    src: "/assets/carousel/hero-1.png",
     alt: "image 1",
   },
   {
-    src: "/src/assets/carousel/hero-2.png",
+    src: "/assets/carousel/hero-2.png",
     alt: "Image 2",
   },
   {
-    src: "/src/assets/carousel/hero-3.png",
+    src: "/assets/carousel/hero-3.png",
     alt: "Image 3",
   },
   {
-    src: "/src/assets/carousel/hero-1.png",
+    src: "/assets/carousel/hero-1.png",
     alt: "Image 4",
   },
   {
-    src: "/src/assets/carousel/hero-2.png",
+    src: "/assets/carousel/hero-2.png",
     alt: "Image 5",
   },
 ];

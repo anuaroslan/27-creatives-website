@@ -20,7 +20,7 @@ const Partnerships = () => {
         </div>
         <div className="mt-6 md:mt-8 lg:mt-12 order-1 md:order-2">
           <img
-            src="/src/assets/images/partnerships.png"
+            src="/assets/images/partnerships.png"
             alt="Team collaboration"
             className="w-full h-auto shadow-lg rounded-lg"
           />

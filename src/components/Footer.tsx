@@ -18,7 +18,7 @@ const Footer = () => {
             variant="secondary"
           />
           <div className="h-1 w-full mx-auto mt-8 md:mt-10 mb-4 md:mb-5 bg-gradient-to-r from-[#F9CE34] via-[#EE2A7B] to-[#6228D7]"></div>
-          <div className="text-[#ABACAF] flex flex-wrap justify-center gap-2 sm:gap-0 font-sans text-xs sm:text-sm">
+          <div className="text-[#ABACAF] flex flex-wrap justify-center items-center gap-2 sm:gap-0 font-sans text-xs sm:text-sm">
             <a className="flex items-center">© Twenty Seven Creatives 2024</a>
             <p className="w-1 h-1 rounded-full bg-[#ABACAF] mx-2 hidden sm:block"></p>
             <a className="flex items-center" href="/privacy-policy">

@@ -58,7 +58,7 @@ const Services = () => {
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2 mb-8 md:mb-0 md:mt-0">
             <img
-              src="/src/assets/images/services.png"
+              src="/assets/images/services.png"
               alt="Service showcase"
               className="w-full h-auto object-cover rounded-lg shadow-md"
             />

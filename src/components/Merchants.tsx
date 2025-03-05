@@ -9,7 +9,7 @@ const Merchants = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 justify-center items-center">
         <div className="mt-6 md:mt-8 lg:mt-12 order-1 md:order-1">
           <img
-            src="/src/assets/images/merchants.png"
+            src="/assets/images/merchants.png"
             alt="Team collaboration"
             className="w-full h-auto shadow-lg rounded-lg"
           />
