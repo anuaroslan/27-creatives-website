@@ -51,7 +51,7 @@ const GetInTouchPage = () => {
         )}
         <form
           className="space-y-6 font-sans"
-          action={import.meta.env.REACT_APP_FORMIE_API_KEY}
+          action={import.meta.env.FORMIE_API_KEY}
           method="post"
           onSubmit={() => setIsSubmitted(true)}
         >
