@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Button from "./Button";
 // import { BackgroundImage } from '../components/background';
 
-export const TermsOfUse = () => {
+export const TermsOfUsePage = () => {
   return (
     <main className="container mx-auto px-4 py-16">
       {/* <BackgroundImage/> */}
@@ -117,4 +117,4 @@ export const TermsOfUse = () => {
   );
 };
 
-export default TermsOfUse;
+export default TermsOfUsePage;

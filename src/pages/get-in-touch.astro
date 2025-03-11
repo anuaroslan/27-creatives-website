@@ -1,95 +1,20 @@
 ---
-import '../styles/global.css';
-import '../styles/fonts.css';
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Button from '../components/Button';
-import { BackgroundImage } from '../components/background';
+import "../styles/global.css";
+import "../styles/fonts.css";
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Button from "../components/Button";
+import { BackgroundImage } from "../components/background";
+import GetInTouchPage from "../components/GetInTouchPage";
 ---
 
 <Layout title="Get in Touch - Twenty7 Creatives">
-    <Header />
-    <main class="container mx-auto px-4 py-16">
-        <BackgroundImage/>
-        <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 z-10">
-            <!-- Left Column -->
-            <div class="font-sans">
-                <div class="mb-8">
-                    <div class="flex items-center">
-                        <p class="w-1 h-1 bg-[#D7B26D] mx-2"></p>
+  <Header />
+  <main class="container mx-auto px-4 py-16">
+    <BackgroundImage />
+    <GetInTouchPage client:load />
+  </main>
+  <Footer />
+</Layout>
 
-                        <span class="text-sm font-medium font-sans">GET IN TOUCH</span>
-                    </div>
-                    <h1 class="text-5xl font-bold mt-2">
-                        CHANGE BEGINS<br />WITH WORDS
-                    </h1>
-                </div>
-
-                <p class="text-lg mb-8">
-                    Contact us to discuss business opportunities, or just to say hello. Use
-                    the form below or send us an email at twenty7creatives@gmail.com
-                </p>
-
-                <div class="space-y-3">
-                    <p>Email Us: twenty7creatives@gmail.com</p>
-                    <p>Call Us: +6016 366 2772</p>
-                    <a href="https://linkedin.com" class="flex items-center gap-2 ">
-                        <img src="/assets/logo/icon-linkedin.svg" alt="LinkedIn" class="w-5 h-5" />
-                        Follow Us
-                    </a>
-                </div>
-            </div>
-
-            <!-- Right Column - Contact Form -->
-            <div>
-                <form class="space-y-6 font-sans">
-                    <div>
-                        <label for="fullName" class="block text-sm mb-2 ">Full Name</label>
-                        <input 
-                            type="text" 
-                            id="fullName" 
-                            name="fullName" 
-                            placeholder="Enter your full name"
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white"
-                            required
-                        >
-                    </div>
-
-                    <div>
-                        <label for="email" class="block text-sm mb-2">Email</label>
-                        <input 
-                            type="email" 
-                            id="email" 
-                            name="email" 
-                            placeholder="Enter your email"
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white"
-                            required
-                        >
-                    </div>
-
-                    <div>
-                        <label for="message" class="block text-sm mb-2">Message</label>
-                        <textarea 
-                            id="message" 
-                            name="message" 
-                            rows="6" 
-                            placeholder="Let us know how we can help..."
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white"
-                            required
-                        ></textarea>
-                    </div>
-
-                   <div class="flex w-full justify-center">
-                        <Button 
-                            text="Get in touch with us" fullWidth
-                        />
-                   </div>
-                    
-                    
-                </form>
-            </div>
-        </section>
-    </main>
-    <Footer />
-</Layout> 

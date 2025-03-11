@@ -5,6 +5,7 @@ interface ButtonProps {
   text: string;
   variant?: "primary" | "secondary";
   fullWidth?: boolean;
+  type?: "button" | "submit" | "reset";
 }
 
 const Button = ({
@@ -12,6 +13,7 @@ const Button = ({
   text,
   variant = "primary",
   fullWidth = false,
+  type,
 }: ButtonProps) => {
   const Component = href ? "a" : "button";
 
@@ -35,13 +37,14 @@ const Button = ({
   const styles = getVariantStyles();
   return (
     <div
-      className={`flex justify-center items-center ${
+      className={`flex justify-center items-center cursor-pointer ${
         fullWidth ? "w-full" : ""
       }`}
     >
       <Component
         href={href}
-        className={`relative group ${fullWidth ? "w-full" : ""}`}
+        type={Component === "button" ? type : undefined}
+        className={`relative group cursor-pointer ${fullWidth ? "w-full" : ""}`}
       >
         {/* Outer border */}
         <div

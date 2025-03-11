@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Button from "./Button";
 // import { BackgroundImage } from '../components/background';
 
-export const PrivacyPolicy = () => {
+export const PrivacyPolicyPage = () => {
   return (
     <main className="container mx-auto px-4 py-16">
       {/* <BackgroundImage/> */}
@@ -113,4 +113,4 @@ export const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicyPage;
